@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Simple_Javascript_Games/static/css/main.bcfd88b8.css",
-    "main.js": "/Simple_Javascript_Games/static/js/main.7b129dec.js",
+    "main.js": "/Simple_Javascript_Games/static/js/main.eb966396.js",
     "index.html": "/Simple_Javascript_Games/index.html",
     "main.bcfd88b8.css.map": "/Simple_Javascript_Games/static/css/main.bcfd88b8.css.map",
-    "main.7b129dec.js.map": "/Simple_Javascript_Games/static/js/main.7b129dec.js.map"
+    "main.eb966396.js.map": "/Simple_Javascript_Games/static/js/main.eb966396.js.map"
   },
   "entrypoints": [
     "static/css/main.bcfd88b8.css",
-    "static/js/main.7b129dec.js"
+    "static/js/main.eb966396.js"
   ]
 }
