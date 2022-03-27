@@ -185,6 +185,7 @@ function App() {
       className="App"
       style={{
         fontFamily: "Bungee",
+        backgroundColor: "#1a1b18be",
         textShadow: "4px 4px 20px #1a1b1841",
       }}
     >
