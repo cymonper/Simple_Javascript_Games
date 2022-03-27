@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
 .App {
   text-align: center;
 }
@@ -35,4 +36,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.dice {
+  display: flex;
+  flex-basis: fill;
+  flex-direction: row;
+  text-align: center;
+}
+.one {
+  flex: 1 1 auto;
+}
+.two {
+  flex: 1 1 auto;
+}
+
+.third {
+  display: flex;
+  flex-basis: fill;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.three {
+  background-color: #1a1b18be;
+  padding: 30px;
+  margin: 6px;
+}
+
+.three2 {
+  padding: 6px;
+  margin: 6px;
+}
+
+.numinput {
+  display: flex;
+  flex-basis: fill;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
 }
