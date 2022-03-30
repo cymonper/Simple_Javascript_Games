@@ -45,15 +45,18 @@ function tail() {
 
 function toss() {
   tossres = Math.floor(Math.random() * 2) + 1;
-  console.log(tossres);
 
-  if (userin == tossres) {
+  if (userin == null) {
+    document.getElementById("res").innerHTML = "Please select an option";
+  } else if (userin == tossres) {
     document.getElementById("res").innerHTML = "You Win the Toss  ʘ‿ʘ";
   } else {
     document.getElementById("res").innerHTML = "You Lost the Toss  ಠ~ಠ";
   }
 
-  if (tossres == 1) {
+  if (userin == null) {
+    document.getElementById("tr").innerHTML = "Select option";
+  } else if (tossres == 1) {
     document.getElementById("tr").innerHTML = "Head";
   } else {
     document.getElementById("tr").innerHTML = "Tail";
@@ -103,7 +106,10 @@ function submit() {
   document.getElementById("3").style.backgroundColor = "#a4db3f";
   document.getElementById("4").style.backgroundColor = "#a4db3f";
 
-  if (he == ms) {
+  if (ms == null) {
+    reset();
+    document.getElementById("thinkresult").innerHTML = "Please select Door No";
+  } else if (he == ms) {
     document.getElementById("thinkresult").innerHTML =
       "You Guessed it Right ʘ‿ʘ";
   } else {
@@ -254,7 +260,7 @@ function App() {
           <Card.Title>2) Toss A Coin ©</Card.Title>
           <div className="dice">
             <div className="one">
-              Select option
+              A) Select option
               <div>
                 <ButtonGroup>
                   <Button
@@ -275,10 +281,10 @@ function App() {
               </div>
             </div>
             <div className="one">
-              Your Selection<h5 id="us"></h5>
+              B) Your Selection<h5 id="us"></h5>
             </div>
             <div className="one">
-              Toss Result<h5 id="tr"></h5>
+              C) Toss Result<h5 id="tr"></h5>
             </div>
           </div>
           <div>
